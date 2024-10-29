@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+        }
+        .box1{
+            background-color: rgb(181, 245, 224);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="tool" >hello</div>
+
+    <script>
+
+        var tool = document.getElementById("tool");
+        tool.id = "tools"
+
+        tool.className = "box box1"
+
+        console.log(tool.classList.add("box2"));
+        tool.classList.remove("box");
+
+        if(tool.classList.contains("box1")){
+            console.log("yes");
+            
+        }else{
+            console.log("no");
+            
+        }
+
+        console.log(tool.innerHTML = "yes");
+        console.log(tool.innerText = "yes");
+        
+        
+        var str = "<a href = 'https://www.baidu.com'>百度</a>";
+        tool.innerHTML = str
+        // tool.innerText = str  会把标签识别成字符串
+    </script>
+    
+</body>
+</html>
