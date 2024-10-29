@@ -1,0 +1,1 @@
+"This is my first time using GitHub to upload my own work. I’m a university student majoring in Software Engineering and currently learning frontend development. Through this repository, I aim to document and share my progress and achievements as I learn. I welcome any feedback or suggestions for improvement and hope this journey can inspire others as well!"
